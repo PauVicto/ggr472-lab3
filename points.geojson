@@ -102,7 +102,7 @@
             "properties": {
                 "name": "Twilight Cafe & Bar",
                 "address": "252 Victoria Street, Toronto, Ontario M5B 0A3, Canada",
-                "category": "Restaurant "
+                "category": "Restaurant"
             },
             "geometry": {
                 "coordinates": [
@@ -245,7 +245,7 @@
             "type": "Feature",
             "properties": {
                 "name": "Film Cafe",
-                "address": " 230 Augusta Ave, Toronto, ON M5T 2L6",
+                "address": "230 Augusta Ave, Toronto, ON M5T 2L6",
                 "category": "Cafe"
             },
             "geometry": {
