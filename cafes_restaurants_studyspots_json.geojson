@@ -1,0 +1,309 @@
+{
+    "type": "FeatureCollection",
+    "features": [
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Neo Coffee Bar",
+                "address": "770 Bay Street, Toronto, Ontario M5G 0A6, Canada",
+                "category": "Study Spot"
+            },
+            "geometry": {
+                "coordinates": [
+                    -79.38586357262541,
+                    43.66013357512918
+                ],
+                "type": "Point"
+            },
+            "id": 0
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Icha Tea",
+                "address": "235 Spadina Ave. Unit 4, Toronto, ON M5T 2E2",
+                "category": "Study Spot"
+            },
+            "geometry": {
+                "coordinates": [
+                    -79.39699069594842,
+                    43.65140498878873
+                ],
+                "type": "Point"
+            },
+            "id": 1
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Bloom Cafe",
+                "address": "255 Beverley Street, Toronto, Ontario M5T 1Z4, Canada",
+                "category": "Cafe"
+            },
+            "geometry": {
+                "coordinates": [
+                    -79.39557783799665,
+                    43.658498490237605
+                ],
+                "type": "Point"
+            },
+            "id": 2
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Bloom Cafe",
+                "address": "596 Yonge Street, Toronto, Ontario M4Y 1Z3, Canada",
+                "category": "Cafe"
+            },
+            "geometry": {
+                "coordinates": [
+                    -79.38500595551187,
+                    43.665489778339236
+                ],
+                "type": "Point"
+            },
+            "id": 3
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Icha Tea",
+                "address": "996 Queen Street West, Toronto, Ontario M6J 1H1, Canada",
+                "category": "Study Spot"
+            },
+            "geometry": {
+                "coordinates": [
+                    -79.4184797723183,
+                    43.64443222805332
+                ],
+                "type": "Point"
+            },
+            "id": 4
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Lait Night",
+                "address": "81 Huron Street, Toronto, Ontario M5T 2A8, Canada",
+                "category": "Study Spot"
+            },
+            "geometry": {
+                "coordinates": [
+                    -79.3960595371422,
+                    43.653854696205514
+                ],
+                "type": "Point"
+            },
+            "id": 5
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Twilight Cafe & Bar",
+                "address": "252 Victoria Street, Toronto, Ontario M5B 0A3, Canada",
+                "category": "Restaurant "
+            },
+            "geometry": {
+                "coordinates": [
+                    -79.37964448015998,
+                    43.655534926593305
+                ],
+                "type": "Point"
+            },
+            "id": 6
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Forget Me Not Coffee",
+                "address": "506 Adelaide St W, Toronto, ON M5V 1T5",
+                "category": "Cafe"
+            },
+            "geometry": {
+                "coordinates": [
+                    -79.40086799642808,
+                    43.64583302514626
+                ],
+                "type": "Point"
+            },
+            "id": 7
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Project Seoul",
+                "address": "355 Spadina Ave., Toronto, ON M5T 2G3",
+                "category": "Study Spot"
+            },
+            "geometry": {
+                "coordinates": [
+                    -79.39858561703686,
+                    43.65553024242115
+                ],
+                "type": "Point"
+            },
+            "id": 8
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Nabulu Coffee",
+                "address": "6 St Joseph St, Toronto, ON M4Y 1J7",
+                "category": "Study Spot"
+            },
+            "geometry": {
+                "coordinates": [
+                    -79.38563837777748,
+                    43.66611081875391
+                ],
+                "type": "Point"
+            },
+            "id": 9
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "The Peachy",
+                "address": "618 Yonge St, Toronto, ON M4Y 1Z3",
+                "category": "Cafe"
+            },
+            "geometry": {
+                "coordinates": [
+                    -79.38514054094065,
+                    43.66588050581052
+                ],
+                "type": "Point"
+            },
+            "id": 10
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Kung Fu Tea",
+                "address": "584 Yonge St, Toronto, ON M4Y 1Z3",
+                "category": "Study Spot"
+            },
+            "geometry": {
+                "coordinates": [
+                    -79.384905056069,
+                    43.66522351858251
+                ],
+                "type": "Point"
+            },
+            "id": 11
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Daily Dose Coffee Bar",
+                "address": "125 John St, Toronto, ON M5V 2E2",
+                "category": "Cafe"
+            },
+            "geometry": {
+                "coordinates": [
+                    -79.39024157483813,
+                    43.64835492780543
+                ],
+                "type": "Point"
+            },
+            "id": 12
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Nonni Cafe & Bakery",
+                "address": "430 King St W Unit 4, Toronto, ON M5V 1K3",
+                "category": "Restaurant"
+            },
+            "geometry": {
+                "coordinates": [
+                    -79.39404236876285,
+                    43.64589815033551
+                ],
+                "type": "Point"
+            },
+            "id": 13
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Muay Thai Bar & Restaurant",
+                "address": "325 Queen St W, Toronto, ON M5V 2A4",
+                "category": "Restaurant"
+            },
+            "geometry": {
+                "coordinates": [
+                    -79.39181293989377,
+                    43.64954405448407
+                ],
+                "type": "Point"
+            },
+            "id": 14
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Film Cafe",
+                "address": " 230 Augusta Ave, Toronto, ON M5T 2L6",
+                "category": "Cafe"
+            },
+            "geometry": {
+                "coordinates": [
+                    -79.40249833584043,
+                    43.65507826718178
+                ],
+                "type": "Point"
+            },
+            "id": 15
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Koh Lipe Thai Kitchen",
+                "address": "35 Baldwin St, Toronto, ON M5T 1L1",
+                "category": "Restaurant"
+            },
+            "geometry": {
+                "coordinates": [
+                    -79.39345297571766,
+                    43.65587747739406
+                ],
+                "type": "Point"
+            },
+            "id": 16
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Kinka Izakaya",
+                "address": "398 Church St, Toronto, ON M5B 2A2",
+                "category": "Restaurant"
+            },
+            "geometry": {
+                "coordinates": [
+                    -79.37912802519493,
+                    43.66047067500466
+                ],
+                "type": "Point"
+            },
+            "id": 17
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Nomé Izakaya",
+                "address": "92 Fort York Blvd, Toronto, ON M5V 4A7",
+                "category": "Restaurant"
+            },
+            "geometry": {
+                "coordinates": [
+                    -79.39719067676187,
+                    43.63997338610176
+                ],
+                "type": "Point"
+            },
+            "id": 18
+        }
+    ]
+}
