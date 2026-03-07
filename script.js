@@ -17,7 +17,7 @@ map.addControl(
         accessToken: mapboxgl.accessToken,
         mapboxgl: mapboxgl,
         bbox: [-79.425, 43.635, -79.375, 43.670],
-        placeholder: 'Search Cafes, Restaurants, and Study Spots',
+        placeholder: 'Search Bar',
         marker: false
     }),
     'top-left'
