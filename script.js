@@ -2,7 +2,7 @@ mapboxgl.accessToken = 'pk.eyJ1IjoicGF1LXZpY3RvIiwiYSI6ImNta2Rib2s1bTA5d2MzZW9va
 
 const map = new mapboxgl.Map({
     container: 'my-map',
-    style: 'mapbox://styles/pau-victo/cmldhwais00d401qq1p97ayx5',
+    style: 'mapbox://styles/pau-victo/cmmgxjkl600ax01qse2jycqwm',
     center: [-79.39699, 43.65140],
     maxBounds: [
         [-79.45, 43.62],
@@ -31,7 +31,7 @@ map.on('load', () => {
         data: 'https://raw.githubusercontent.com/PauVicto/ggr472-lab3/refs/heads/main/points.geojson',
         generateId: true
     });
-    
+
     map.addLayer({
         'id': 'points-layer',
         'type': 'symbol',
@@ -44,21 +44,12 @@ map.on('load', () => {
                 'marker'
             ],
             'icon-size': ['match', ['get', 'category'],
-                'Cafe', 0.8,
+                'Cafe', 0.9,
                 'Restaurant', 0.8,
-                'Study Spot', 0.8,
-                0.8
+                'Study Spot', 0.9,
+                0.9
             ],
             'icon-allow-overlap': true,
-        },
-        'paint': {
-            'icon-opacity': 0.8,
-            'icon-color': ['match', ['get', 'category'],
-                'Cafe', '#ff38ff',
-                'Restaurant', '#1317fc',
-                'Study Spot', '#f54013',
-                '#ffffff'
-            ]
         }
     });
 });
