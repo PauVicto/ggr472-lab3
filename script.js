@@ -2,7 +2,7 @@ mapboxgl.accessToken = 'pk.eyJ1IjoicGF1LXZpY3RvIiwiYSI6ImNta2Rib2s1bTA5d2MzZW9va
 
 const map = new mapboxgl.Map({
     container: 'my-map',
-    style: 'mapbox://styles/pau-victo/cmmgxjkl600ax01qse2jycqwm',
+    style: 'mapbox://styles/pau-victo/cmmh1q5st006j01ryg6ri7zi1',
     center: [-79.3921, 43.6522],
     maxBounds: [
         [-79.45, 43.62],
