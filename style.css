@@ -3,21 +3,29 @@
   top: 0;
   left: 0;
   bottom: 0;
-  width: 100%;          
+  width: 100%;
 }
 
+.legend {
+  position: absolute;
+  bottom: 13px;
+  right: 13px;
+  background-color: #ffffff;
+  padding: 13px;
+  border-radius: 6px;
+  font-family: Arial, sans-serif;
+  font-size: 14px;
+}
+
+.legend div {
+  display: flex;
+  align-items: center;
+  margin-bottom: 6px;
+}
+
+
 .legend-icon {
-  display: inline-block;
   width: 20px;
   height: 20px;
   margin-right: 8px;
-  background-size: contain;
-  background-repeat: no-repeat;
-  text-transform: capitalize;
-}
-
-.legend div{
-  display: flex;
-  align-items: center;
-  margin-bottom: 5px;
 }
