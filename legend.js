@@ -1,4 +1,4 @@
-//Decare legend items with category and corresponding icon paths (added png's matching icons on map)
+//Legend items with category and corresponding icon paths (added png's matching icons on map)
 const legenditems = [
     { category: 'Cafe', icon: 'icons/cafe-icon.png' }, //Category: Cafe, Icon: cafe png file
     { category: 'Restaurant', icon: 'icons/restaurant-icon.png' }, //category: Restaurant, Icon: restaurant png file

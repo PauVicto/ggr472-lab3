@@ -5,8 +5,8 @@ mapboxgl.accessToken = 'pk.eyJ1IjoicGF1LXZpY3RvIiwiYSI6ImNta2Rib2s1bTA5d2MzZW9va
 //Initialize map
 const map = new mapboxgl.Map({
     container: 'my-map', //HTML ID container for map
-    style: 'mapbox://styles/pau-victo/cmmh1q5st006j01ryg6ri7zi1', //Custom map style from mapbox
-    center: [-79.3921, 43.6522], //Center of map once loaded, near grange park
+    style: 'mapbox://styles/pau-victo/cmmh1q5st006j01ryg6ri7zi1', //Custom map style URL from mapbox
+    center: [-79.3921, 43.6522], //Center of map once loaded, used coordinates near Icha tea Cafe
     maxBounds: [
         [-79.45, 43.62], //Southwest map bounds
         [-79.35, 43.69] //Northeast map bounds
@@ -33,7 +33,7 @@ map.addControl(new mapboxgl.NavigationControl());
 //Add data source and draw initial visualisation of points on map with custom icons and popups
 map.on('load', () => {
 
-    //GeoJson data added as a source, with generateId to create unique IDs for each feature
+    //GeoJson data added as a source, with generateId to create unique IDs for each feature (True)
     map.addSource('points', {
         type: 'geojson',
         data: 'https://raw.githubusercontent.com/PauVicto/ggr472-lab3/refs/heads/main/points.geojson',
@@ -52,6 +52,7 @@ map.on('load', () => {
                 'Study Spot', 'star', //Category: Study Spot, Icon: star
                 'marker'
             ],
+            
             //set icon size based on category//
             'icon-size': ['match', ['get', 'category'],
                 'Cafe', 0.9,
